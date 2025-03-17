@@ -1,0 +1,85 @@
+body {
+    background-image: url("index.png");
+}
+
+
+body{
+    font-family: Arial, Sans serif;
+    margin: 0;
+    height: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'RingM';
+    color: white;
+    font-size: 40px;
+}
+
+.title{
+    display: flex;
+    height: 960px;
+    font-family: 'RingM';
+    font-size: 50px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: rgba(211, 211, 211, 0.841);
+    margin-left: 3%;
+}
+
+@font-face {
+    font-family: RingM;
+    src: url(RINGM___.TTF);
+}
+
+
+
+/*homepage*/
+
+.leftcol{
+    width: 40%;
+    height: 1000px;
+    float: left;
+    color: #fff;
+    margin-left: 5%;
+}
+
+
+.rightcontainer{
+    width: 35%;
+    height: 1000px;
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}
+
+.image{
+    float: left;
+    color: white ;
+   
+}
+
+.bigbox{
+    width: 70%;
+    height: 1000px;
+    float: left;
+    color: white ;
+    margin-left: 15%;
+}
+
+.logo {
+    display: flex;
+    height: 800px;
+    align-items: flex-end;
+    padding-left: 3%;    
+}
